@@ -7,6 +7,11 @@
 
 ![screenshot](https://raw.githubusercontent.com/Vimux/Mainroad/master/images/screenshot.png)
 
+## This fork
+
+I made this fork, since I am using the theme on my webseite [EvilOpossum.de](https://evilopossum.de), where I got some deprecations from Hugo, which I am trying to fix here.
+Also removed Google fonts, as this poses legal threats in Germany.
+
 **Features:**
 
 + Responsive design
@@ -64,12 +69,11 @@ googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID
 [services.googleAnalytics]
   ID = "" # Enable Google Analytics by entering your tracking ID
 
-[Author] # Used in authorbox
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
 
 [Params]
+  Author.name = "John Doe"
+  Author.bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  Author.avatar = "img/avatar.png"
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
   copyright = "John Doe" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
